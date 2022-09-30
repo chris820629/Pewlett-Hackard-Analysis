@@ -31,3 +31,5 @@ on e.emp_no = t.emp_no
 where (e.birth_date between '1965-01-01' and '1965-12-31') and (de.to_date='9999-01-01')
 order by e.emp_no
 
+select count(*)
+from mentorship_eligibility
